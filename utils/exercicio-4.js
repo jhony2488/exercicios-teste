@@ -1,5 +1,4 @@
 function checkIfTheFirstLetterIsUppercase(word) {
-
   if (!word || word.length == 0 || /^[0-9]+$/.test(word)) 
     return false
 

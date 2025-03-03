@@ -8,4 +8,4 @@ function updateDataObject(currentObject, newDataObject) {
   return currentObject
 }
 
-module.exports= updateDataObject;
+module.exports = updateDataObject

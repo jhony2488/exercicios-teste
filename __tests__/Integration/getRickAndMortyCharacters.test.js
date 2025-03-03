@@ -2,7 +2,7 @@ const { getRickAndMortyCharacters } = require('../../index')
 const {characteres} =require("../../mockedCharacteres")
 
 describe('getRickAndMortyCharacters', () => {
-  test('the data is peanut butter', async () => {
+  test('check if the request is being made normally', async () => {
     const data = await getRickAndMortyCharacters();
     expect(data).toEqual(characteres);
   });
